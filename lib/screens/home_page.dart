@@ -13,8 +13,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   VoiceController _voiceController;
 
-  String text = 'Esto es un ejemplo de un texto dictado por voz en castellano.';
-  double volumen = 0.5;
+  String text = 'Esto es un ejemplo de un texto dictado por voz.';
 
   @override
   void initState() {
